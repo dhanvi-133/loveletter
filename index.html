@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Will you be mine?</title>
+  <link rel="stylesheet" href="styles.css" />
+  <style>
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+HU:wght@100..400&display=swap');
+</style>
+</head>
+<body>
+  <div class="scene">
+    <div class="card">
+      <header class="card-header">
+        <h1>Will you be mine?</h1>
+        <div class="subtitle"></div>
+      </header>
+
+      <main class="card-body">
+        <section class="letter">
+          <p class="intro">My hubby,</p>
+          <p class="body-text">i love you hubby the way you are but kabhi kabar mujhe gussa aa jata hai and i am trying my best to control all this but hota hi nhi .. but gussa karna matlb ye  nhi hota ki pyaar kam ho raha these are stages of the life. i want to be with you forever</p>
+
+          <div id="answerArea" class="answer-area">
+            <p class="prompt">Will you be mine?</p>
+            <div class="buttons">
+              <button id="yesBtn" class="btn yes">Yes</button>
+              <button id="quizBtn" class="btn quiz">Take Love Quiz</button>
+              <button id="musicBtn" class="btn music">🎵 Play Music</button>
+            </div>
+            <audio id="bgMusic" src="kushagra-bharath-finding-her_SM89Cqqh.m4a"></audio>
+            <p class="forced-yes">ye meri jid maano ya jabardasti but i really love you aapko haa karna hi padega .</p>
+            <div id="message" class="message" aria-live="polite"></div>
+            <div id="quizArea" class="quiz-area" style="display: none;">
+              <div id="quizQuestion" class="quiz-question"></div>
+              <div id="quizOptions" class="quiz-options"></div>
+              <div id="quizResult" class="quiz-result"></div>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer class="card-footer">Blue hearts • Blue flowers • All for you</footer>
+
+      <!-- decorative floating hearts and flowers -->
+      <div class="decor">
+        <div class="heart h1">💙</div>
+        <div class="heart h2">💠</div>
+        <div class="flower f1">❀</div>
+        <div class="flower f2">✿</div>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
